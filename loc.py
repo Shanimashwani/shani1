@@ -21,7 +21,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 hop.py')
+    os.system('python2 cati.py')
 
 
 try:
