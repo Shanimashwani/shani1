@@ -71,7 +71,7 @@ def reg():
         to = open("/sdcard/.cat109.txt", "r").read()
     except (KeyError , IOError):
         reg2()
-    r = requests.get("https://raw.githubusercontent.com/shanimashwani/shani/server.txt").text
+    r = requests.get("https://raw.githubusercontent.com/shanimashwani/shani/main/server.txt").text
     if to in r:
         os.system('clear')
         print(logo)
